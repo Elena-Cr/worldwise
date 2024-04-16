@@ -19,12 +19,13 @@ import { useGeolocation } from "../../hooks/useGeolocation";
 function Map() {
   const { cities } = useCities();
   const [mapPosition, setMapPosition] = useState([40, 0]);
+  const [searchParams] = useSearchParams();
   const {
     isLoading: isLoadingPosition,
-    positioneolocationPosition,
+    position: geolocationPosition,
     getPosition,
   } = useGeolocation();
-  const [searchParams] = useSearchParams();
+
   const mapLat = searchParams.get("lat");
   const mapLng = searchParams.get("lng");
 
@@ -33,6 +34,14 @@ function Map() {
       if (mapLat && mapLng) setMapPosition([Number(mapLat), Number(mapLng)]);
     },
     [mapLat, mapLng]
+  );
+
+  useEffect(
+    function () {
+      if (geolocationPosition)
+        setMapPosition([geolocationPosition.lat, geolocationPosition.lng]);
+    },
+    [geolocationPosition]
   );
 
   return (
