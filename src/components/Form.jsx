@@ -7,6 +7,8 @@ import { useNavigate } from "react-router-dom";
 import styles from "./Form.module.css";
 import Button from "./Button";
 import ButtonBack from "./ButtonBack";
+import Message from "./Message";
+import Spinner from "./Spinner";
 import { useURLPosition } from "../../hooks/useURLPosition";
 
 export function convertToEmoji(countryCode) {
@@ -41,11 +43,12 @@ export default function Form() {
   const [isLoadingGeocoding, setIsLoadingGeocoding] = useState(false);
   const [countryName, setCountryName] = useState("");
   const [emoji, setEmoji] = useState("");
-
+  const [geocodingError, setGeocodingError] = useState("");
   useEffect(() => {
     async function fetchCityData() {
       try {
         setIsLoadingGeocoding(true);
+        setGeocodingError("");
         const res = await fetch(
           `${BASE_URL}?key=${KEY}&lat=${lat}&lon=${lng}&format=json`
         );
@@ -59,14 +62,15 @@ export default function Form() {
         setCountryName(data.address.country);
         setEmoji(convertToEmoji(data.address.country_code));
       } catch (err) {
-        throw new Error();
+        setGeocodingError(err.message);
       } finally {
         setIsLoadingGeocoding(false);
       }
     }
     fetchCityData();
-  }, [(lat, lng)]);
-
+  }, [lat, lng]);
+  if (isLoadingGeocoding) return <Spinner />;
+  if (geocodingError) return <Message message={geocodingError} />;
   return (
     <form className={styles.form}>
       <div className={styles.row}>
