@@ -1,39 +1,27 @@
 {
   "cities": [
     {
-      "id": "2129",
-      "cityName": "Saint-Maurice-sur-Aveyron",
-      "countryName": "Franța",
-      "emoji": "🇫🇷",
-      "date": "2024-04-18T13:36:29.966Z",
+      "id": "6916",
+      "cityName": "Moral de Calatrava",
+      "countryName": "Spania",
+      "emoji": "🇪🇸",
+      "date": "2024-04-18T14:36:17.945Z",
       "notes": "",
       "position": {
-        "lat": "47.85740289465826",
-        "lng": "2.9882812500000004"
+        "lat": "38.82259097617713",
+        "lng": "-3.5375976562500004"
       }
     },
     {
-      "id": "bcd1",
-      "cityName": "Paris",
-      "countryName": "Franța",
-      "emoji": "🇫🇷",
-      "date": "2024-04-18T13:36:33.260Z",
+      "id": "9afa",
+      "cityName": "Martín del Río",
+      "countryName": "Spania",
+      "emoji": "🇪🇸",
+      "date": "2024-04-18T14:38:27.500Z",
       "notes": "",
       "position": {
-        "lat": "48.821332549646655",
-        "lng": "2.4389648437500004"
-      }
-    },
-    {
-      "id": "3c2f",
-      "cityName": "Reiser",
-      "countryName": "Germania",
-      "emoji": "🇩🇪",
-      "date": "2024-04-18T13:36:40.044Z",
-      "notes": "",
-      "position": {
-        "lat": "51.26191485308451",
-        "lng": "10.480957031250002"
+        "lat": "40.84706035607122",
+        "lng": "-0.9228515625000001"
       }
     }
   ]
