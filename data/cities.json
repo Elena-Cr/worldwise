@@ -1,111 +1,39 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": "73930385"
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
+      "id": "2129",
+      "cityName": "Saint-Maurice-sur-Aveyron",
+      "countryName": "Franța",
+      "emoji": "🇫🇷",
+      "date": "2024-04-18T13:36:29.966Z",
       "notes": "",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": "17806751"
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": "98443197"
-    },
-    {
-      "id": "320f",
-      "cityName": "Sallent de Gállego",
-      "countryName": "Spania",
-      "emoji": "🇪🇸",
-      "date": "2024-04-18T13:10:15.341Z",
-      "notes": "note",
-      "position": {
-        "lat": "42.74701217318067",
-        "lng": "-0.41748046875000006"
+        "lat": "47.85740289465826",
+        "lng": "2.9882812500000004"
       }
     },
     {
-      "id": "c0b6",
-      "cityName": "Moratalla",
-      "countryName": "Spania",
-      "emoji": "🇪🇸",
-      "date": "2024-04-18T13:18:23.599Z",
-      "notes": "note",
-      "position": {
-        "lat": "38.28993659801203",
-        "lng": "-1.7358398437500002"
-      }
-    },
-    {
-      "id": "f39c",
-      "cityName": "Heggen",
-      "countryName": "Germania",
-      "emoji": "🇩🇪",
-      "date": "2024-04-18T13:19:44.764Z",
-      "notes": "hhh",
-      "position": {
-        "lat": "51.15178610143037",
-        "lng": "7.954101562500001"
-      }
-    },
-    {
-      "id": "3cfa",
-      "cityName": "Heggen",
-      "countryName": "Germania",
-      "emoji": "🇩🇪",
-      "date": "2024-04-18T13:19:44.764Z",
-      "notes": "hhh",
-      "position": {
-        "lat": "51.15178610143037",
-        "lng": "7.954101562500001"
-      }
-    },
-    {
-      "id": "fe97",
-      "cityName": "Rohrbach",
-      "countryName": "Germania",
-      "emoji": "🇩🇪",
-      "date": "2024-04-18T13:22:44.903Z",
+      "id": "bcd1",
+      "cityName": "Paris",
+      "countryName": "Franța",
+      "emoji": "🇫🇷",
+      "date": "2024-04-18T13:36:33.260Z",
       "notes": "",
       "position": {
-        "lat": "49.79544988802771",
-        "lng": "8.767089843750002"
+        "lat": "48.821332549646655",
+        "lng": "2.4389648437500004"
       }
     },
     {
-      "id": "7242",
-      "cityName": "Arlöv",
-      "countryName": "Suedia",
-      "emoji": "🇸🇪",
-      "date": "2024-04-18T13:23:10.803Z",
+      "id": "3c2f",
+      "cityName": "Reiser",
+      "countryName": "Germania",
+      "emoji": "🇩🇪",
+      "date": "2024-04-18T13:36:40.044Z",
       "notes": "",
       "position": {
-        "lat": "55.640398956687356",
-        "lng": "13.029785156250002"
+        "lat": "51.26191485308451",
+        "lng": "10.480957031250002"
       }
     }
   ]
