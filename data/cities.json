@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,7 +22,7 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
       "cityName": "Berlin",
@@ -34,7 +34,79 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
+    },
+    {
+      "id": "320f",
+      "cityName": "Sallent de Gállego",
+      "countryName": "Spania",
+      "emoji": "🇪🇸",
+      "date": "2024-04-18T13:10:15.341Z",
+      "notes": "note",
+      "position": {
+        "lat": "42.74701217318067",
+        "lng": "-0.41748046875000006"
+      }
+    },
+    {
+      "id": "c0b6",
+      "cityName": "Moratalla",
+      "countryName": "Spania",
+      "emoji": "🇪🇸",
+      "date": "2024-04-18T13:18:23.599Z",
+      "notes": "note",
+      "position": {
+        "lat": "38.28993659801203",
+        "lng": "-1.7358398437500002"
+      }
+    },
+    {
+      "id": "f39c",
+      "cityName": "Heggen",
+      "countryName": "Germania",
+      "emoji": "🇩🇪",
+      "date": "2024-04-18T13:19:44.764Z",
+      "notes": "hhh",
+      "position": {
+        "lat": "51.15178610143037",
+        "lng": "7.954101562500001"
+      }
+    },
+    {
+      "id": "3cfa",
+      "cityName": "Heggen",
+      "countryName": "Germania",
+      "emoji": "🇩🇪",
+      "date": "2024-04-18T13:19:44.764Z",
+      "notes": "hhh",
+      "position": {
+        "lat": "51.15178610143037",
+        "lng": "7.954101562500001"
+      }
+    },
+    {
+      "id": "fe97",
+      "cityName": "Rohrbach",
+      "countryName": "Germania",
+      "emoji": "🇩🇪",
+      "date": "2024-04-18T13:22:44.903Z",
+      "notes": "",
+      "position": {
+        "lat": "49.79544988802771",
+        "lng": "8.767089843750002"
+      }
+    },
+    {
+      "id": "7242",
+      "cityName": "Arlöv",
+      "countryName": "Suedia",
+      "emoji": "🇸🇪",
+      "date": "2024-04-18T13:23:10.803Z",
+      "notes": "",
+      "position": {
+        "lat": "55.640398956687356",
+        "lng": "13.029785156250002"
+      }
     }
   ]
 }
