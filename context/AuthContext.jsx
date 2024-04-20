@@ -9,13 +9,13 @@ const initialState = {
   isAuthenticated: false,
 };
 function reducer(state, action) {
-  switch (action.tye) {
+  switch (action.type) {
     case "login":
       return { ...state, user: action.payload, isAuthenticated: true };
     case "logout":
       return { ...state, user: null, isAuthenticated: false };
     default:
-      throw new Error("Unknown action type");
+      throw new Error(`Unknown action type ${state.type}`);
   }
 }
 
@@ -31,6 +31,7 @@ function AuthProvider({ children }) {
     reducer,
     initialState
   );
+
   function login(email, password) {
     if (email === FAKE_USER.email && password === FAKE_USER.password)
       dispatch({ type: "login", payload: FAKE_USER });
@@ -51,6 +52,7 @@ function useAuth() {
   const context = useContext(AuthContext);
   if (context === "udefinded")
     throw new Error("This Context was used outside of the AuthProvider");
+  return context;
 }
 
 export { AuthProvider, useAuth };
